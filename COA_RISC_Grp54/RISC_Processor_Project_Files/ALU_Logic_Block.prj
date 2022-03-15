@@ -1,0 +1,5 @@
+verilog work "adder_1B.v"
+verilog work "LogicalShifter.v"
+verilog work "ArithmeticShifter.v"
+verilog work "adder_32B.v"
+verilog work "ALU_Logic_Block.v"

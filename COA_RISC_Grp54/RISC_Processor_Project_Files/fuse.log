@@ -1,0 +1,72 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_isim_beh.exe -prj C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_beh.prj work.TopModule_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/adder_1B.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/adder_8B.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/adder_16B.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/LogicalShifter.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ipcore_dir/Main_Memory.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ipcore_dir/Instruction_Memory.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/DFF.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ArithmeticShifter.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/adder_32B.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/signExtendBlock.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/PC.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/Next_PC.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/mux_2X1_5.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/mux_2X1.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/MainMemory.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/label_sign_extend.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/InstructionDecoder.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/BranchBlock.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ALU_Logic_Block.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/ALU_Controller.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule.v" into library work
+Analyzing Verilog file "C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module Next_PC
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module Instruction_Memory
+Compiling module InstructionMemory
+Compiling module InstructionDecoder
+Compiling module ControllerUnit
+Compiling module mux_2X1_5
+Compiling module RegisterFile
+Compiling module mux_2X1_32
+Compiling module signExtendBlock
+Compiling module label_sign_extend
+Compiling module ALU_Controller
+Compiling module adder_1B
+Compiling module adder_8B
+Compiling module adder_16B
+Compiling module adder_32B
+Compiling module LogicalShifter
+Compiling module ArithmeticShifter
+Compiling module ALU_Logic_Block
+Compiling module DFF
+Compiling module BranchBlock
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module Main_Memory
+Compiling module MainMemory
+Compiling module TopModule
+Compiling module TopModule_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 33 Verilog Units
+Built simulation executable C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_isim_beh.exe
+Fuse Memory Usage: 33748 KB
+Fuse CPU Usage: 936 ms

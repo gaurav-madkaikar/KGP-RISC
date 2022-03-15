@@ -1,0 +1,66 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/giris/Downloads/RISC_Processor/RISC_Processor/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/giris/Downloads/RISC_Processor/RISC_Processor/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: ALU_Logic_Block.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\adder_1B.v" into library work
+Parsing module <adder_1B>.
+Analyzing Verilog file "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\LogicalShifter.v" into library work
+Parsing module <LogicalShifter>.
+Analyzing Verilog file "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\ArithmeticShifter.v" into library work
+Parsing module <ArithmeticShifter>.
+Analyzing Verilog file "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\adder_32B.v" into library work
+Parsing module <adder_32B>.
+WARNING:HDLCompiler:751 - "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\adder_32B.v" Line 31: Redeclaration of ansi port Cout is not allowed
+WARNING:HDLCompiler:248 - "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\adder_32B.v" Line 35: Block identifier is required on this block
+Analyzing Verilog file "C:\Users\giris\Downloads\RISC_Processor\RISC_Processor\ALU_Logic_Block.v" into library work
+Parsing module <ALU_Logic_Block>.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.23 secs
+ 
+--> 
+
+Total memory usage is 4494696 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

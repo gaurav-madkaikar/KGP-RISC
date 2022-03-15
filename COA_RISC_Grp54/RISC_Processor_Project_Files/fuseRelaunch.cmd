@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_isim_beh.exe" -prj "C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_beh.prj" "work.TopModule_tb" "work.glbl" 

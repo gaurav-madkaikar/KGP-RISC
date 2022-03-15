@@ -1,0 +1,66 @@
+ISim log file
+Running: C:\Users\gmadk\Documents\RISC_Processor_latest\TopModule_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/gmadk/Documents/RISC_Processor_latest/TopModule_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TopModule_tb.uut.IM1.IM1.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TopModule_tb.uut.MM1.MM1.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+                  10 GCD of 697 and 289 =          0
+                  30 GCD of 697 and 289 =          0
+                  50 GCD of 697 and 289 =        697
+                  70 GCD of 697 and 289 =        697
+                  90 GCD of 697 and 289 =        697
+                 110 GCD of 697 and 289 =        697
+                 130 GCD of 697 and 289 =        697
+                 150 GCD of 697 and 289 =        697
+                 170 GCD of 697 and 289 =        697
+                 190 GCD of 697 and 289 =        697
+                 210 GCD of 697 and 289 =        697
+                 230 GCD of 697 and 289 =        408
+                 250 GCD of 697 and 289 =        408
+                 270 GCD of 697 and 289 =        408
+                 290 GCD of 697 and 289 =        408
+                 310 GCD of 697 and 289 =        408
+                 330 GCD of 697 and 289 =        408
+                 350 GCD of 697 and 289 =        408
+                 370 GCD of 697 and 289 =        408
+                 390 GCD of 697 and 289 =        408
+                 410 GCD of 697 and 289 =        408
+                 430 GCD of 697 and 289 =        408
+                 450 GCD of 697 and 289 =        408
+                 470 GCD of 697 and 289 =        408
+                 490 GCD of 697 and 289 =        408
+                 510 GCD of 697 and 289 =        408
+                 530 GCD of 697 and 289 =        408
+                 550 GCD of 697 and 289 =        408
+                 570 GCD of 697 and 289 =        408
+                 590 GCD of 697 and 289 =        408
+                 610 GCD of 697 and 289 =        408
+                 630 GCD of 697 and 289 =        408
+                 650 GCD of 697 and 289 =        935
+                 670 GCD of 697 and 289 =        935
+                 690 GCD of 697 and 289 =        935
+                 710 GCD of 697 and 289 =        935
+                 730 GCD of 697 and 289 =        935
+                 750 GCD of 697 and 289 =        935
+                 770 GCD of 697 and 289 =        935
+                 790 GCD of 697 and 289 =        935
+                 810 GCD of 697 and 289 =        935
+                 830 GCD of 697 and 289 =        935
+                 850 GCD of 697 and 289 =       1462
+                 870 GCD of 697 and 289 =       1462
+                 890 GCD of 697 and 289 =       1462
+                 910 GCD of 697 and 289 =       1462
+                 930 GCD of 697 and 289 =       1462
+                 950 GCD of 697 and 289 =       1462
+                 970 GCD of 697 and 289 =       1462
+                 990 GCD of 697 and 289 =       1462

@@ -1,0 +1,378 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: ALU_Logic_Block.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_Logic_Block.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_Logic_Block"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : ALU_Logic_Block
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\mux_2X1.v" into library work
+Parsing module <mux_2X1>.
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_1B.v" into library work
+Parsing module <adder_1B>.
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\LogicalShifter.v" into library work
+Parsing module <LogicalShifter>.
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ArithmeticShifter.v" into library work
+Parsing module <ArithmeticShifter>.
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_32B.v" into library work
+Parsing module <adder_32B>.
+WARNING:HDLCompiler:751 - "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_32B.v" Line 31: Redeclaration of ansi port Cout is not allowed
+WARNING:HDLCompiler:248 - "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_32B.v" Line 35: Block identifier is required on this block
+Analyzing Verilog file "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ALU_Logic_Block.v" into library work
+Parsing module <ALU_Logic_Block>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ALU_Logic_Block>.
+
+Elaborating module <adder_32B>.
+
+Elaborating module <adder_1B>.
+WARNING:HDLCompiler:1127 - "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ALU_Logic_Block.v" Line 39: Assignment to tmpCout ignored, since the identifier is never used
+
+Elaborating module <LogicalShifter>.
+
+Elaborating module <mux_2X1>.
+
+Elaborating module <ArithmeticShifter>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ALU_Logic_Block>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ALU_Logic_Block.v".
+WARNING:Xst:647 - Input <comp> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ALU_Logic_Block.v" line 39: Output port <Cout> of the instance <twos_comp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ALU_Logic_Block.v" line 39: Output port <overflow> of the instance <twos_comp> is unconnected or connected to loadless signal.
+    Found 32-bit 7-to-1 multiplexer for signal <_n0046> created at line 28.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <ALU_Logic_Block> synthesized.
+
+Synthesizing Unit <adder_32B>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_32B.v".
+    Summary:
+Unit <adder_32B> synthesized.
+
+Synthesizing Unit <adder_1B>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\adder_1B.v".
+    Summary:
+Unit <adder_1B> synthesized.
+
+Synthesizing Unit <LogicalShifter>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\LogicalShifter.v".
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <LogicalShifter> synthesized.
+
+Synthesizing Unit <mux_2X1>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\mux_2X1.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_2X1> synthesized.
+
+Synthesizing Unit <ArithmeticShifter>.
+    Related source file is "C:\Users\gmadk\Desktop\KGP Acad\5th Sem\COA\COA Laboratory\COA_RISC\RISC_Processor\ArithmeticShifter.v".
+    Summary:
+	no macro.
+Unit <ArithmeticShifter> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 33
+ 1-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 28
+ 32-bit 7-to-1 multiplexer                             : 1
+# Xors                                                 : 131
+ 1-bit xor2                                            : 130
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 33
+ 1-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 28
+ 32-bit 7-to-1 multiplexer                             : 1
+# Xors                                                 : 131
+ 1-bit xor2                                            : 130
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_Logic_Block> ...
+
+Optimizing unit <adder_32B> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU_Logic_Block, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ALU_Logic_Block.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 462
+#      LUT2                        : 10
+#      LUT3                        : 78
+#      LUT4                        : 28
+#      LUT5                        : 150
+#      LUT6                        : 175
+#      MUXF7                       : 21
+# IO Buffers                       : 106
+#      IBUF                        : 70
+#      OBUF                        : 36
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  441  out of  63400     0%  
+    Number used as Logic:               441  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    441
+   Number with an unused Flip Flop:     441  out of    441   100%  
+   Number with an unused LUT:             0  out of    441     0%  
+   Number of fully used LUT-FF pairs:     0  out of    441     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         107
+ Number of bonded IOBs:                 106  out of    210    50%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.713ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7094 / 36
+-------------------------------------------------------------------------
+Delay:               12.713ns (Levels of Logic = 19)
+  Source:            B<2> (PAD)
+  Destination:       signFlag (PAD)
+
+  Data Path: B<2> to signFlag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           112   0.001   1.089  B_2_IBUF (B_2_IBUF)
+     LUT6:I1->O            4   0.124   0.556  adderM/[2].res/Cout1 (adderM/carry<2>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[4].res/Cout1 (adderM/carry<4>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[6].res/Cout1 (adderM/carry<6>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[8].res/Cout1 (adderM/carry<8>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[10].res/Cout1 (adderM/carry<10>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[12].res/Cout1 (adderM/carry<12>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[14].res/Cout1 (adderM/carry<14>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[16].res/Cout1 (adderM/carry<16>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[18].res/Cout1 (adderM/carry<18>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[20].res/Cout1 (adderM/carry<20>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[22].res/Cout1 (adderM/carry<22>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[24].res/Cout1 (adderM/carry<24>)
+     LUT5:I3->O            4   0.124   0.556  adderM/[26].res/Cout1 (adderM/carry<26>)
+     LUT5:I3->O            3   0.124   0.550  adderM/[28].res/Cout1 (adderM/carry<28>)
+     LUT5:I3->O            3   0.124   0.435  adderM/[30].res/Cout1 (adderM/carry<30>)
+     LUT3:I2->O            3   0.124   0.933  adderM/[31].res/Mxor_sum_xo<0>1 (addRes<31>)
+     LUT5:I0->O            1   0.124   0.399  Mmux_signFlag11 (signFlag_OBUF)
+     OBUF:I->O                 0.000          signFlag_OBUF (signFlag)
+    ----------------------------------------
+    Total                     12.713ns (2.109ns logic, 10.604ns route)
+                                       (16.6% logic, 83.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.46 secs
+ 
+--> 
+
+Total memory usage is 4617948 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+
