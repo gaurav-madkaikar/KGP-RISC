@@ -1,2 +1,2 @@
-COA_RISC_Grp54/Verilog Files/*.v linguist-language=Verilog
-COA_RISC_Grp54/RISC_Processor_Project_Files/*.v linguist-language=Verilog
+COA_RISC_Grp54/RISC_Processor_Project_Files/* linguist-documentation
+COA_RISC_Grp54/COE Files/* linguist-documentation
